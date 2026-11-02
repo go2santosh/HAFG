@@ -125,7 +125,7 @@ python test.py --dataset-name sots_indoor --experiment-name released --checkpoin
 
 The NH-HAZE and Dense-HAZE models are tested on the 5 test pairs of each dataset. The SOTS indoor model is tested on the test part of the random 80/10/10 split described in [Dataset Setup](#dataset-setup).
 
-**Note on the provided checkpoints:** they were trained with all the loss terms for a longer schedule than the default 250 epochs of `train.py`, followed by fine-tuning with the L1 loss only. A model retrained with the default settings may therefore give different results.
+**Note on the provided checkpoints:** they were trained with all the loss terms for a longer schedule than the default 250 epochs of `train.py`, followed by fine-tuning with the loss factors and learning rates. A model retrained with the default settings may therefore give different results.
 
 ### Evaluating your own trained model
 
@@ -158,6 +158,7 @@ If you find this work useful, please cite our paper:
     title={HAFG: Haze-aware Adaptive Feature Guidance for Image Dehazing},
     author={Santosh Kumar Sharma and Snehasis Mukherjee},
     journal={Digital Signal Processing},
+    publisher = {Elsevier},
     year={2026}
 }
 ```
