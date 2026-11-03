@@ -2,7 +2,7 @@
 
 Official PyTorch implementation of the paper **"HAFG: Haze-aware Adaptive Feature Guidance for Image Dehazing"**, accepted in *Digital Signal Processing* (2026).
 
-**Paper:** TODO: link to the paper on the publisher's site / DOI
+**Paper:** https://doi.org/10.1016/j.dsp.2026.106588
 
 ## Overview
 
@@ -11,7 +11,7 @@ HAFG is a lightweight U-Net for single image dehazing that improves two parts of
 <p align="center">
   <img src="images/dehaze_model_architecture.png" alt="HAFG architecture" width="95%">
   <br>
-  <em>Overall architecture of HAFG. Figure reproduced by the authors from S. K. Sharma and S. Mukherjee, "HAFG: Haze-aware Adaptive Feature Guidance for Image Dehazing", Digital Signal Processing, 2026, TODO: DOI link.</em>
+  <em>Overall architecture of HAFG. Figure reproduced by the authors from S. K. Sharma and S. Mukherjee, "HAFG: Haze-aware Adaptive Feature Guidance for Image Dehazing", Digital Signal Processing, 2026, https://doi.org/10.1016/j.dsp.2026.106588.</em>
 </p>
 
 The method, its design rationale and the experimental results are described in the paper. Please read it through the official channel linked above.
@@ -105,7 +105,7 @@ Outputs are written to `data/<dataset>_<experiment-name>/`.
 
 ### Evaluating the provided checkpoints
 
-Download the checkpoints from the <!-- TODO: link to the GitHub Release --> page and place them in `data/checkpoints/`:
+Download the checkpoints from this repository data/checkpoints page and place them in `data/checkpoints/`:
 
 ```
 data/checkpoints/
@@ -159,7 +159,8 @@ If you find this work useful, please cite our paper:
     author={Santosh Kumar Sharma and Snehasis Mukherjee},
     journal={Digital Signal Processing},
     publisher = {Elsevier},
-    year={2026}
+    year={2026},
+    doi: {https://doi.org/10.1016/j.dsp.2026.106588}
 }
 ```
 
